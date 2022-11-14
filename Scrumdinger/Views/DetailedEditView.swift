@@ -23,6 +23,7 @@ struct DetailedEditView: View {
                     Spacer()
                     Text("\(Int(data.lengthInMinutes)) minutes")
                 }
+                ThemePicker(selection: $data.theme)
             }, header: { Text("Meeting Info")})
             
             Section(content: {
