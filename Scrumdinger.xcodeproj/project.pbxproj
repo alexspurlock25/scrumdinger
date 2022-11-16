@@ -69,6 +69,7 @@
 		D90B20F32921E589001DBAC7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D9A6ED412923CA9900A80805 /* ScrumTimer.swift */,
 				D90B20F42921E5A7001DBAC7 /* Theme.swift */,
 				D90B20F62921E798001DBAC7 /* DailyScrum.swift */,
 				D9A6ED4C292497B400A80805 /* AVPlayer+Ding.swift */,
@@ -106,7 +107,6 @@
 		D96A80182921C35B009B5238 = {
 			isa = PBXGroup;
 			children = (
-				D9A6ED412923CA9900A80805 /* ScrumTimer.swift */,
 				D96A80232921C35C009B5238 /* Scrumdinger */,
 				D96A80222921C35C009B5238 /* Products */,
 			);
