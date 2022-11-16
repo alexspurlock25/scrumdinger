@@ -8,7 +8,9 @@
 import Foundation
 import SwiftUI
 
-enum Theme: String, CaseIterable, Identifiable {
+// Codeable: serialize data to and from JSON
+// String is already a codeable so we gain an auto conformance
+enum Theme: String, CaseIterable, Identifiable, Codable {
     case bubblegum
     case buttercup
     case indigo
