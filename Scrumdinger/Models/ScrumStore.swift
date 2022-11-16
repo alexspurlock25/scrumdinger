@@ -19,4 +19,27 @@ class ScrumStore: ObservableObject {
             .url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false)
             .appendingPathComponent("scrums.data")
     }
+    
+    static func load(completion: @escaping (Result<[DailyScrum], Error>) -> Void) {
+        // perform longer tasks in the background
+        DispatchQueue.global(qos: .background).async {
+            do {
+                let fileUrl = try fileURL()
+                guard let file = try? FileHandle(forReadingFrom: fileUrl) else {
+                    DispatchQueue.main.async {
+                        completion(.success([])) // create file if error
+                    }
+                    return
+                }
+                let dailyScrums = try JSONDecoder().decode([DailyScrum].self, from: file.availableData)
+                DispatchQueue.main.async {
+                    completion(.success(dailyScrums))
+                }
+            } catch {
+                DispatchQueue.main.async {
+                    completion(.failure(error))
+                }
+            }
+        }
+    }
 }
