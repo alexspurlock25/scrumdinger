@@ -49,6 +49,19 @@ struct DetailView: View {
                     Label(attendee.name, systemImage: "person")
                 }
             }, header: { Text("Attendees") })
+            
+            Section(content: {
+                if scrum.history.isEmpty {
+                    Label("No meetings yet", systemImage: "calendar.badge.exclamationmark")
+                }
+                
+                ForEach(scrum.history) { history in
+                    HStack {
+                        Image(systemName: "calendar")
+                        Text(history.date, style: .date)
+                    }
+                }
+            }, header: { Text("History") })
         }
         .navigationTitle(scrum.title)
         .toolbar {

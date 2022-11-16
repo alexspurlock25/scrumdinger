@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ScrumsView: View {
     @Binding var scrums: [DailyScrum]
+    @State private var isPreseningNewScrumView = false
+    @State private var newScrumData = DailyScrum.Data()
     
     var body: some View {
         List {
@@ -21,10 +23,33 @@ struct ScrumsView: View {
         }
         .navigationTitle("Daily Scrums")
         .toolbar {
-            Button(action: {}) {
+            Button(action: {
+                isPreseningNewScrumView = true
+            }) {
                 Image(systemName: "plus")
             }
             .accessibilityLabel("New Scrum")
+        }
+        .sheet(isPresented: $isPreseningNewScrumView) {
+            NavigationView {
+                DetailedEditView(data: $newScrumData)
+                    .toolbar {
+                        ToolbarItem(placement: .cancellationAction) {
+                            Button("Dismiss") {
+                                isPreseningNewScrumView = false
+                                newScrumData = DailyScrum.Data()
+                            }
+                        }
+                        ToolbarItem(placement: .confirmationAction) {
+                            Button("Add") {
+                                let newScrum = DailyScrum(data: newScrumData)
+                                scrums.append(newScrum)
+                                isPreseningNewScrumView = false
+                                newScrumData = DailyScrum.Data()
+                            }
+                        }
+                    }
+            }
         }
     }
 }
