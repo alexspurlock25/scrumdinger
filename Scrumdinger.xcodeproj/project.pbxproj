@@ -27,6 +27,7 @@
 		D9A6ED4B2924942F00A80805 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = D9A6ED4A2924942F00A80805 /* ding.wav */; };
 		D9A6ED4D292497B400A80805 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6ED4C292497B400A80805 /* AVPlayer+Ding.swift */; };
 		D9A6ED4F29250C2D00A80805 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6ED4E29250C2D00A80805 /* History.swift */; };
+		D9A6ED512925212300A80805 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6ED502925212300A80805 /* ScrumStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		D9A6ED4A2924942F00A80805 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		D9A6ED4C292497B400A80805 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		D9A6ED4E29250C2D00A80805 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		D9A6ED502925212300A80805 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				D90B20F62921E798001DBAC7 /* DailyScrum.swift */,
 				D9A6ED4C292497B400A80805 /* AVPlayer+Ding.swift */,
 				D9A6ED4E29250C2D00A80805 /* History.swift */,
+				D9A6ED502925212300A80805 /* ScrumStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				D90B2109292280FE001DBAC7 /* ThemePicker.swift in Sources */,
 				D9A6ED402923C4A800A80805 /* ScrumProgressViewStyle.swift in Sources */,
 				D9A6ED4429248D6800A80805 /* MeetingFooterView.swift in Sources */,
+				D9A6ED512925212300A80805 /* ScrumStore.swift in Sources */,
 				D9A6ED422923CA9900A80805 /* ScrumTimer.swift in Sources */,
 				D90B20F72921E798001DBAC7 /* DailyScrum.swift in Sources */,
 				D90B21012922689B001DBAC7 /* DetailView.swift in Sources */,
