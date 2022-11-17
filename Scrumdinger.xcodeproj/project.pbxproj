@@ -33,6 +33,7 @@
 		D9A6ED572925C25600A80805 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6ED562925C25600A80805 /* MeetingTimerView.swift */; };
 		D9A6ED592925C58A00A80805 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6ED582925C58A00A80805 /* SpeakerArc.swift */; };
 		D9A6ED5B2925D5A800A80805 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6ED5A2925D5A800A80805 /* SpeechRecognizer.swift */; };
+		D9A6ED5D2925D82000A80805 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6ED5C2925D82000A80805 /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		D9A6ED562925C25600A80805 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 		D9A6ED582925C58A00A80805 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 		D9A6ED5A2925D5A800A80805 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		D9A6ED5C2925D82000A80805 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				D9A6ED3F2923C4A800A80805 /* ScrumProgressViewStyle.swift */,
 				D9A6ED542925885B00A80805 /* ErrorView.swift */,
 				D9A6ED562925C25600A80805 /* MeetingTimerView.swift */,
+				D9A6ED5C2925D82000A80805 /* HistoryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9A6ED4F29250C2D00A80805 /* History.swift in Sources */,
+				D9A6ED5D2925D82000A80805 /* HistoryView.swift in Sources */,
 				D90B2109292280FE001DBAC7 /* ThemePicker.swift in Sources */,
 				D9A6ED402923C4A800A80805 /* ScrumProgressViewStyle.swift in Sources */,
 				D9A6ED4429248D6800A80805 /* MeetingFooterView.swift in Sources */,
