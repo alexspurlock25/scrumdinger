@@ -30,6 +30,7 @@
 		D9A6ED512925212300A80805 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6ED502925212300A80805 /* ScrumStore.swift */; };
 		D9A6ED53292587B800A80805 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6ED52292587B800A80805 /* ErrorWrapper.swift */; };
 		D9A6ED552925885B00A80805 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6ED542925885B00A80805 /* ErrorView.swift */; };
+		D9A6ED572925C25600A80805 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6ED562925C25600A80805 /* MeetingTimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		D9A6ED502925212300A80805 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 		D9A6ED52292587B800A80805 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		D9A6ED542925885B00A80805 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		D9A6ED562925C25600A80805 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				D90B2108292280FE001DBAC7 /* ThemePicker.swift */,
 				D9A6ED3F2923C4A800A80805 /* ScrumProgressViewStyle.swift */,
 				D9A6ED542925885B00A80805 /* ErrorView.swift */,
+				D9A6ED562925C25600A80805 /* MeetingTimerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				D90B20F72921E798001DBAC7 /* DailyScrum.swift in Sources */,
 				D90B21012922689B001DBAC7 /* DetailView.swift in Sources */,
 				D9A6ED3E2923C22B00A80805 /* MeetingHeaderView.swift in Sources */,
+				D9A6ED572925C25600A80805 /* MeetingTimerView.swift in Sources */,
 				D90B20FB2921EB30001DBAC7 /* TrailingIconLabelStyle.swift in Sources */,
 				D9A6ED53292587B800A80805 /* ErrorWrapper.swift in Sources */,
 				D90B20F52921E5A7001DBAC7 /* Theme.swift in Sources */,
