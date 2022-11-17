@@ -31,6 +31,7 @@
 		D9A6ED53292587B800A80805 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6ED52292587B800A80805 /* ErrorWrapper.swift */; };
 		D9A6ED552925885B00A80805 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6ED542925885B00A80805 /* ErrorView.swift */; };
 		D9A6ED572925C25600A80805 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6ED562925C25600A80805 /* MeetingTimerView.swift */; };
+		D9A6ED592925C58A00A80805 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6ED582925C58A00A80805 /* SpeakerArc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		D9A6ED52292587B800A80805 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		D9A6ED542925885B00A80805 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		D9A6ED562925C25600A80805 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		D9A6ED582925C58A00A80805 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				D96A80282921C35E009B5238 /* Assets.xcassets */,
 				D96A802A2921C35E009B5238 /* Preview Content */,
 				D90B20FE29226856001DBAC7 /* Styles */,
+				D9A6ED582925C58A00A80805 /* SpeakerArc.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				D96A80252921C35C009B5238 /* ScrumdingerApp.swift in Sources */,
 				D90B210529227D99001DBAC7 /* ThemeView.swift in Sources */,
 				D90B20F92921E847001DBAC7 /* CardView.swift in Sources */,
+				D9A6ED592925C58A00A80805 /* SpeakerArc.swift in Sources */,
 				D9A6ED4D292497B400A80805 /* AVPlayer+Ding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
