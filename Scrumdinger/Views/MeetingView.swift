@@ -26,8 +26,7 @@ struct MeetingView: View {
             VStack {
                 MeetingHeaderView(secondsElapsed: scrumTimer.secondsElapsed, secondsRemaning: scrumTimer.secondsRemaning, theme: scrum.theme)
                 
-                Circle()
-                    .strokeBorder(lineWidth: 24)
+                MeetingTimerView(speakers: scrumTimer.speakers, theme: scrum.theme)
                 
                 MeetingFooterView(
                     speakers: scrumTimer.speakers,
@@ -55,6 +54,7 @@ struct MeetingView: View {
                     attendees: scrum.attendees,
                     lengthInMinutes: scrum.timer.secondsElapsed / 60
                 )
+            scrum.history.insert(newHistory, at: 0)
         }
         .navigationBarTitleDisplayMode(.inline)
     }
